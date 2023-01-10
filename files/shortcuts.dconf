@@ -1,0 +1,10 @@
+[/]
+email=@as []
+home=['<Super>e']
+screensaver=['<Super>l']
+terminal=['<Primary><Alt>t']
+
+[custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'

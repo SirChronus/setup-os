@@ -1,0 +1,19 @@
+[/]
+favorite-apps=['firefox.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'discord.desktop']
+welcome-dialog-last-shown-version='42.3.1'
+
+[extensions/dash-to-dock]
+click-action='minimize-or-previews'
+dash-max-icon-size=24
+dock-alignment='CENTER'
+dock-position='BOTTOM'
+manualhide=false
+
+[extensions/pop-cosmic]
+clock-alignment='RIGHT'
+overlay-key-action='LAUNCHER'
+show-applications-button=true
+show-workspaces-button=true
+
+[extensions/pop-shell]
+focus-right=['<Super>Right', '<Super>KP_Right']
