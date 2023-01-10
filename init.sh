@@ -37,3 +37,7 @@ http -dbo ${VICTOR_INSTALL_DIR} ${VICTOR_DOWNLOAD_URL}
 mkdir ~/.fonts
 unzip -d ~/.fonts/victormono ${VICTOR_INSTALL_DIR}
 fc-cache -f -v
+
+# Starship theme
+curl -sS https://starship.rs/install.sh | sh
+cp ${FILES_DIR}starship.toml ~/.config/starship.toml

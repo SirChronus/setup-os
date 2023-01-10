@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES_DIR=./files/
+export FILES_DIR=./files/
 
 # Initial installation steps and dependencies
 ./init.sh
@@ -16,6 +16,7 @@ mkdir ~/Pictures/wallpaper
 http -dbo ~/Pictures/wallpaper/neofetch.jpg https://w.wallhaven.cc/full/rr/wallhaven-rrdgp1.jpg
 http -dbo ~/Pictures/wallpaper/wallpaper.jpg https://w.wallhaven.cc/full/rr/wallhaven-rrdgp1.jpg
 # http -dbo ~/Pictures/wallpaper/wallpaper.png https://w.wallhaven.cc/full/d6/wallhaven-d66gq3.png
+mkdir -p ~/.config/neofetch/
 cp ${FILES_DIR}/neofetch.conf ~/.config/neofetch/config.conf
 
 git config --global init.defaultBranch master
