@@ -35,5 +35,5 @@ VICTOR_INSTALL_DIR=/tmp/victormono.zip
 VICTOR_DOWNLOAD_URL=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/VictorMono.zip
 http -dbo ${VICTOR_INSTALL_DIR} ${VICTOR_DOWNLOAD_URL}
 mkdir ~/.fonts
-unzip -d ~/.fonts/victormono ${VICTOR_INSTALL_URL}
+unzip -d ~/.fonts/victormono ${VICTOR_INSTALL_DIR}
 fc-cache -f -v
