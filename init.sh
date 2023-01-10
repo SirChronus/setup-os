@@ -33,7 +33,7 @@ fi
 # Victor Mono Nerd Font
 VICTOR_INSTALL_DIR=/tmp/victormono.zip
 VICTOR_DOWNLOAD_URL=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/VictorMono.zip
-http -dbo ${VICTOR_INSTALL_URL} ${VICTOR_DOWNLOAD_URL}
+http -dbo ${VICTOR_INSTALL_DIR} ${VICTOR_DOWNLOAD_URL}
 mkdir ~/.fonts
 unzip -d ~/.fonts/victormono ${VICTOR_INSTALL_URL}
 fc-cache -f -v
