@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Only run if zsh is not installed since we need to quit session beforehand
-if ! command -v <the_command> &> /dev/null
+if ! command -v zsh &> /dev/null
 then
     # Update initial system installation
     sudo apt update
