@@ -47,7 +47,7 @@ enable-animations=true
 font-antialiasing='grayscale'
 font-hinting='slight'
 gtk-theme='Tokyonight-Dark-BL-LB'
-icon-theme='Adwaita'
+icon-theme='Pop'
 
 [desktop/notifications]
 application-children=['org-gnome-geary', 'gnome-power-panel', 'hyper', 'com-github-alainm23-planner', 'org-gnome-extensions-desktop', 'org-gnome-nautilus']
