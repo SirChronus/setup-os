@@ -46,7 +46,7 @@ cursor-theme='Adwaita'
 enable-animations=true
 font-antialiasing='grayscale'
 font-hinting='slight'
-gtk-theme='Tokyonight-Dark-BL-LB'
+gtk-theme='Tokyonight-Storm-BL-LB'
 icon-theme='Pop'
 
 [desktop/notifications]
@@ -119,7 +119,7 @@ active-plugins=['openlinks', 'modelines', 'spell', 'docinfo', 'filebrowser', 'so
 [gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/chronus'
+virtual-root='file:///home/chronus/.themes/Tokyonight-Storm-BL-LB/gnome-shell'
 
 [gedit/preferences/editor]
 editor-font='VictorMono Nerd Font 12'
@@ -202,12 +202,19 @@ searchbar-default-top-location='Bottom'
 show-activities-button=true
 unity-pinned-app-list=['Home', 'ArcMenu_Home', 'ArcMenu_Home', 'Documents', 'ArcMenu_Documents', 'ArcMenu_Documents', 'Downloads', 'ArcMenu_Downloads', 'ArcMenu_Downloads', 'Software', '', 'io.elementary.appcenter.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Log Out', 'application-exit-symbolic', 'ArcMenu_LogOut', 'Lock', 'changes-prevent-symbolic', 'ArcMenu_Lock', 'Power Off', 'system-shutdown-symbolic', 'ArcMenu_PowerOff']
 
+[shell/extensions/cosmic-workspaces]
+override-dash=false
+
 [shell/extensions/dash-to-dock]
+background-color='#1a1b26'
+background-opacity=0.69999999999999996
 click-action='minimize-or-previews'
 dash-max-icon-size=24
 dock-alignment='CENTER'
 dock-position='BOTTOM'
 manualhide=false
+multi-monitor=true
+transparency-mode='FIXED'
 
 [shell/extensions/just-perfection]
 accessibility-menu=true
