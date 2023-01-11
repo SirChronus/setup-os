@@ -22,6 +22,8 @@ For `Pop!_OS 22 LTS`
 * Planner (TODO App)
 * JetBrains Toolbox
 * DBeaver
+* Amberol (Music Player)
+* Trilium (notes taking)
 
 ### Command Line Tools
 

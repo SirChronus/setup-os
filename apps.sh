@@ -45,3 +45,9 @@ sudo tar -xzf /tmp/jetbrains-toolbox.tar.gz -C /opt
 
 # DBeaver
 flatpak install -y flathub io.dbeaver.DBeaverCommunity
+
+# Amberol
+flatpak install flathub io.bassi.Amberol
+
+# Trilium
+flatpak install flathub com.github.zadam.trilium
