@@ -4,8 +4,14 @@ migrated-config=true
 [Weather]
 locations=[<(uint32 2, <('Vienna', 'LOWW', true, [(0.83979426423570236, 0.2891428852314914)], [(0.84124869946126679, 0.28565222672750273)])>)>]
 
+[calendar]
+active-view='month'
+window-maximized=true
+window-position=(0, 32)
+window-size=(2560, 1356)
+
 [control-center]
-last-panel='applications'
+last-panel='default-apps'
 
 [desktop/app-folders/folders/Pop-Office]
 apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
@@ -167,14 +173,14 @@ name='WiFi'
 
 [settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=1800
-sleep-inactive-ac-type='suspend'
+sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [shell]
 disabled-extensions=['pop-cosmic@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['ding@rastersoft.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-dock@system76.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'arcmenu@arcmenu.com', 'mprisLabel@moon-0xff.github.com', 'just-perfection-desktop@just-perfection', 'drive-menu@gnome-shell-extensions.gcampax.github.com']
-favorite-apps=['firefox.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'discord.desktop']
+favorite-apps=['firefox.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'discord.desktop', 'com.github.alainm23.planner.desktop']
 welcome-dialog-last-shown-version='42.3.1'
 
 [shell/extensions/arcmenu]
@@ -211,7 +217,9 @@ background-opacity=0.69999999999999996
 click-action='minimize-or-previews'
 dash-max-icon-size=24
 dock-alignment='CENTER'
+dock-fixed=true
 dock-position='BOTTOM'
+intellihide=false
 manualhide=false
 multi-monitor=true
 transparency-mode='FIXED'
